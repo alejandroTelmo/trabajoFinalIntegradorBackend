@@ -17,10 +17,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     private final static String DB_URL = "jdbc:h2:~/test";
 
-    @Override
-    public Odontologo actualizar(Odontologo odontologo) {
-        return null;
-    }
+
 
     private final static String DB_USER ="sa";
 
@@ -96,7 +93,54 @@ private static Logger log=Logger.getLogger(OdontologoDaoH2.class);
         log.info("Se guardo correctamente el nuevo odontologo.");
         return odontologo;
     }
+    @Override
+    public Odontologo actualizar(Odontologo odontologo) {
+        log.info("comienza metodo actualizar");
+        Connection connection = null;
 
+        PreparedStatement preparedStatement = null;
+
+
+
+        try {
+
+            //1 Levantar el driver y Conectarnos
+
+            Class.forName(DB_JDBC_DRIVER);
+
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+
+
+
+            //2 Crear una sentencia
+
+            preparedStatement = connection.prepareStatement("UPDATE odontologos SET nombre=? ,apellido=?,numero_matricula=? where id=?");
+
+
+
+            preparedStatement.setString(1, odontologo.getNombre());
+
+            preparedStatement.setString(2, odontologo.getApellido());
+
+            preparedStatement.setInt(3, odontologo.getNumeroMatricula());
+
+            preparedStatement.setLong(4,odontologo.getId());
+
+
+            //3 Ejecutar una sentencia SQL
+
+            preparedStatement.executeUpdate();
+
+            preparedStatement.close();
+
+        } catch (SQLException | ClassNotFoundException throwables) {
+            log.error("Hubo un error al intentar actualizar el  odontologo.");
+            throwables.printStackTrace();
+
+        }
+        log.info("Se actualizo correctamente el nuevo odontologo.");
+        return odontologo;
+    }
     @Override
     public void eliminar(Long id) {
         Connection connection = null;

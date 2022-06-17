@@ -60,3 +60,15 @@
 [2022-06-17 19:23:17] [ INFO ] [UsuarioController:45] Listando todo
 [2022-06-17 19:41:16] [ INFO ] [UsuarioController:45] actualizando
 [2022-06-17 19:44:30] [ INFO ] [UsuarioController:45] actualizando
+[2022-06-17 20:27:57] [ ERROR] [OdontologoDaoH2:256] Hubo un error al intentar listar todos los odontologos
+[2022-06-17 20:28:27] [ ERROR] [OdontologoDaoH2:256] Hubo un error al intentar listar todos los odontologos
+[2022-06-17 20:28:39] [ INFO ] [OdontologoDaoH2:250] Se implemento el metodo buscarTodos los odontologos correctamente
+[2022-06-17 20:29:00] [ INFO ] [OdontologoDaoH2:189] Se encontro el odontologo buscado por id
+[2022-06-17 20:29:09] [ INFO ] [OdontologoDaoH2:189] Se encontro el odontologo buscado por id
+[2022-06-17 20:32:01] [ INFO ] [OdontologoDaoH2:54] comienza metodo guardar
+[2022-06-17 20:32:01] [ INFO ] [OdontologoDaoH2:96] Se guardo correctamente el nuevo odontologo.
+[2022-06-17 20:32:18] [ INFO ] [OdontologoDaoH2:250] Se implemento el metodo buscarTodos los odontologos correctamente
+[2022-06-17 20:41:22] [ INFO ] [OdontologoDaoH2:98] comienza metodo actualizar
+[2022-06-17 20:41:22] [ INFO ] [OdontologoDaoH2:141] Se guardo correctamente el nuevo odontologo.
+[2022-06-17 20:43:05] [ INFO ] [OdontologoDaoH2:98] comienza metodo actualizar
+[2022-06-17 20:43:06] [ INFO ] [OdontologoDaoH2:141] Se actualizo correctamente el nuevo odontologo.

@@ -53,7 +53,11 @@ public OdontologoService(){
         return odontologoIDao.buscar(id);
 
     }
+    public Odontologo actualizar(Odontologo odontologo) throws SQLException {
 
+        return odontologoIDao.actualizar(odontologo);
+
+    }
 
 
     public List<Odontologo> buscarTodos(){
