@@ -148,4 +148,49 @@ public class UsuarioDaoH2 implements IDao<Usuario> {
         }
         return usuarios;
     }
+    public Usuario actualizar(Usuario usuario) throws SQLException {
+
+        Connection connection = null;
+
+        PreparedStatement preparedStatement = null;
+
+
+
+        try {
+
+            //1 Levantar el driver y Conectarnos
+
+            Class.forName(DB_JDBC_DRIVER);
+
+            connection = utilDb.getConnection();
+
+
+
+            //2 Crear una sentencia
+
+            preparedStatement = connection.prepareStatement("UPDATE usuarios SET username = ?, password = ? where id = ? ");
+
+            preparedStatement.setString(1, usuario.getUsername());
+
+            preparedStatement.setString(2, usuario.getPassword());
+
+            preparedStatement.setLong(3,usuario.getId());
+
+            //3 Ejecutar una sentencia SQL
+
+            preparedStatement.executeUpdate();
+
+            preparedStatement.close();
+
+        } catch (SQLException | ClassNotFoundException throwables) {
+
+            throwables.printStackTrace();
+
+        }
+
+        return usuario;
+    }
+
+
+
 }

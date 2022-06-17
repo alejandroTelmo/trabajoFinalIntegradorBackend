@@ -34,6 +34,9 @@ public class UsuarioService implements IDao<Usuario> {
         return usuarioIDao.buscar(id);
     }
 
+    public Usuario actualizar(Usuario usuario) throws SQLException {
+        return usuarioIDao.actualizar(usuario);
+    }
     @Override
     public List<Usuario> buscarTodos() {
         return usuarioIDao.buscarTodos();

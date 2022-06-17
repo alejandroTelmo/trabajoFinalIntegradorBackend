@@ -138,6 +138,11 @@ public class PacienteDaoH2 implements IDao<Paciente> {
     }
 
     @Override
+    public Paciente actualizar(Paciente paciente) {
+        return null;
+    }
+
+    @Override
     public Paciente buscar(Long id) {
         Connection connection = null;
 

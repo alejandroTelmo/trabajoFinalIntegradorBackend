@@ -17,6 +17,11 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     private final static String DB_URL = "jdbc:h2:~/test";
 
+    @Override
+    public Odontologo actualizar(Odontologo odontologo) {
+        return null;
+    }
+
     private final static String DB_USER ="sa";
 
     private final static String DB_PASSWORD = "";

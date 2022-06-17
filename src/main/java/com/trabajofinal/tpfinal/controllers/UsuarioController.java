@@ -29,10 +29,21 @@ public class UsuarioController {
 
         return ResponseEntity.ok(usuario);
     }
+    @DeleteMapping("/{id}")
+    public void eliminar(@PathVariable Long id) throws SQLException {
+            usuarioService.eliminar(id);
+    }
+
     @GetMapping
     public List<Usuario> buscarTodos(){
         log.info("Listando todo");
 
         return usuarioService.buscarTodos();
+    }
+    @PutMapping("/{id}")
+    public Usuario  actualizar(@RequestBody Usuario usuario) throws SQLException {
+        log.info("actualizando");
+
+        return usuarioService.actualizar(usuario);
     }
 }

@@ -50,3 +50,13 @@
 [2022-06-17 14:48:51] [ INFO ] [OdontologoDaoH2:184] Se encontro el odontologo buscado por id
 [2022-06-17 14:55:36] [ INFO ] [OdontologoDaoH2:49] comienza metodo guardar
 [2022-06-17 14:55:37] [ INFO ] [OdontologoDaoH2:91] Se guardo correctamente el nuevo odontologo.
+[2022-06-17 16:00:00] [ INFO ] [UsuarioController:34] Listando todo
+[2022-06-17 16:00:16] [ INFO ] [UsuarioController:34] Listando todo
+[2022-06-17 19:04:46] [ INFO ] [UsuarioController:45] Listando todo
+[2022-06-17 19:10:06] [ INFO ] [UsuarioController:45] Listando todo
+[2022-06-17 19:10:40] [ INFO ] [UsuarioController:45] Listando todo
+[2022-06-17 19:11:56] [ INFO ] [UsuarioController:45] Listando todo
+[2022-06-17 19:19:50] [ INFO ] [UsuarioController:45] Listando todo
+[2022-06-17 19:23:17] [ INFO ] [UsuarioController:45] Listando todo
+[2022-06-17 19:41:16] [ INFO ] [UsuarioController:45] actualizando
+[2022-06-17 19:44:30] [ INFO ] [UsuarioController:45] actualizando

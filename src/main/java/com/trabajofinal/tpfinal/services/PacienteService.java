@@ -16,6 +16,11 @@ public class PacienteService implements IDao<Paciente> {
 
     }
 
+    @Override
+    public Paciente actualizar(Paciente paciente) {
+        return null;
+    }
+
     public void setPacienteIDao(IDao<Paciente> pacienteIDao) {
         this.pacienteIDao = pacienteIDao;
     }

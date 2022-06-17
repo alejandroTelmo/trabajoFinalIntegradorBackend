@@ -8,4 +8,7 @@ public interface IDao<T> {
     public void eliminar(Long id) throws SQLException;
     public  T buscar(Long id);
     public List<T> buscarTodos();
+
+    public T actualizar(T t) throws SQLException;
+
 }
