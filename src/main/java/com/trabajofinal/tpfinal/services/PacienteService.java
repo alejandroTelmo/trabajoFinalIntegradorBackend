@@ -17,8 +17,8 @@ public class PacienteService implements IDao<Paciente> {
     }
 
     @Override
-    public Paciente actualizar(Paciente paciente) {
-        return null;
+    public Paciente actualizar(Paciente paciente) throws SQLException {
+        return pacienteIDao.actualizar(paciente);
     }
 
     public void setPacienteIDao(IDao<Paciente> pacienteIDao) {

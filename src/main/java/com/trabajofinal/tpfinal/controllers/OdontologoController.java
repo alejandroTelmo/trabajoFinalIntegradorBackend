@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 public class OdontologoController {
 
-    OdontologoService odontologoService=new OdontologoService(new OdontologoDaoH2());
+    private  OdontologoService odontologoService=new OdontologoService(new OdontologoDaoH2());
     
     @ResponseBody
     @PostMapping

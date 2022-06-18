@@ -69,7 +69,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
 
             preparedStatement = connection.prepareStatement("INSERT INTO pacientes VALUES(?,?,?,?,?)");
 
-            preparedStatement.setLong(1,paciente.getId());
+            preparedStatement.setLong(1, paciente.getId());
 
             preparedStatement.setString(2, paciente.getNombre());
 
@@ -139,7 +139,55 @@ public class PacienteDaoH2 implements IDao<Paciente> {
 
     @Override
     public Paciente actualizar(Paciente paciente) {
-        return null;
+
+        log.info("Comienza el método actualizar datos del paciente");
+        Connection connection = null;
+
+        PreparedStatement preparedStatement = null;
+
+
+
+        try {
+
+            //1 Levantar el driver y Conectarnos
+
+            Class.forName(DB_JDBC_DRIVER);
+
+            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+
+
+
+            //2 Crear una sentencia
+
+            preparedStatement = connection.prepareStatement("UPDATE pacientes SET nombre=?, apellido=?,domicilio=?,fecha_de_alta=? where id=?");
+
+
+
+            preparedStatement.setString(1, paciente.getNombre());
+
+            preparedStatement.setString(2, paciente.getApellido());
+
+            preparedStatement.setString(3, paciente.getDomicilio());
+
+            preparedStatement.setString(4,paciente.getFechaDeAlta());
+
+            preparedStatement.setLong(5,paciente.getId());
+
+
+            //3 Ejecutar una sentencia SQL
+
+            preparedStatement.executeUpdate();
+
+            preparedStatement.close();
+
+        } catch (SQLException | ClassNotFoundException throwables) {
+            log.error("Hubo un error al intentar actualizar el  paciente.");
+            throwables.printStackTrace();
+
+        }
+        log.info("Se actualizo correctamente los datos del paciente.");
+
+        return paciente;
     }
 
     @Override

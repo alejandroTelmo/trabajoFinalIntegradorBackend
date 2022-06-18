@@ -72,3 +72,28 @@
 [2022-06-17 20:41:22] [ INFO ] [OdontologoDaoH2:141] Se guardo correctamente el nuevo odontologo.
 [2022-06-17 20:43:05] [ INFO ] [OdontologoDaoH2:98] comienza metodo actualizar
 [2022-06-17 20:43:06] [ INFO ] [OdontologoDaoH2:141] Se actualizo correctamente el nuevo odontologo.
+[2022-06-17 20:51:45] [ INFO ] [PacienteDaoH2:257] Se implemento el metodo buscarTodos los odontologos correctamente
+[2022-06-17 20:52:15] [ INFO ] [PacienteDaoH2:196] Se encontro el odontologo buscado por id
+[2022-06-17 20:52:20] [ INFO ] [PacienteDaoH2:196] Se encontro el odontologo buscado por id
+[2022-06-17 20:52:24] [ INFO ] [PacienteDaoH2:196] Se encontro el odontologo buscado por id
+[2022-06-17 21:03:16] [ INFO ] [PacienteDaoH2:305] Se implemento el metodo buscarTodos los odontologos correctamente
+[2022-06-17 21:07:05] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:08:55] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:10:04] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:12:37] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:13:20] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:13:47] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:16:28] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:29:13] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:29:13] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-17 21:30:57] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-17 21:30:58] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-17 21:43:23] [ INFO ] [PacienteDaoH2:143] Comienza el método actualizar datos del paciente
+[2022-06-17 21:43:23] [ ERROR] [PacienteDaoH2:184] Hubo un error al intentar actualizar el  paciente.
+[2022-06-17 21:43:23] [ INFO ] [PacienteDaoH2:188] Se actualizo correctamente los datos del paciente.
+[2022-06-17 21:44:05] [ INFO ] [PacienteDaoH2:143] Comienza el método actualizar datos del paciente
+[2022-06-17 21:44:06] [ INFO ] [PacienteDaoH2:188] Se actualizo correctamente los datos del paciente.
+[2022-06-17 21:46:18] [ ERROR] [PacienteDaoH2:130] Hubo un error al intentar eliminar..
+[2022-06-17 21:46:43] [ INFO ] [PacienteDaoH2:126] Se elimino correctamente.
+[2022-06-17 21:49:08] [ ERROR] [PacienteDaoH2:130] Hubo un error al intentar eliminar..
+[2022-06-17 21:49:30] [ INFO ] [PacienteDaoH2:126] Se elimino correctamente.
