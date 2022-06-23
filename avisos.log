@@ -97,3 +97,51 @@
 [2022-06-17 21:46:43] [ INFO ] [PacienteDaoH2:126] Se elimino correctamente.
 [2022-06-17 21:49:08] [ ERROR] [PacienteDaoH2:130] Hubo un error al intentar eliminar..
 [2022-06-17 21:49:30] [ INFO ] [PacienteDaoH2:126] Se elimino correctamente.
+[2022-06-21 22:49:54] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-21 22:49:54] [ ERROR] [OdontologoDaoH2:89] Hubo un error al intentar guardar el nuevo odontologo.
+[2022-06-21 22:49:54] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-21 22:49:54] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-21 22:49:54] [ ERROR] [PacienteDaoH2:91] Hubo un error al intentar guardar el nuevo paciente.
+[2022-06-21 22:49:54] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-21 22:54:05] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-21 22:54:05] [ ERROR] [OdontologoDaoH2:89] Hubo un error al intentar guardar el nuevo odontologo.
+[2022-06-21 22:54:05] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-21 22:54:05] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-21 22:54:05] [ ERROR] [PacienteDaoH2:91] Hubo un error al intentar guardar el nuevo paciente.
+[2022-06-21 22:54:05] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-23 14:19:38] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-23 14:19:39] [ ERROR] [OdontologoDaoH2:89] Hubo un error al intentar guardar el nuevo odontologo.
+[2022-06-23 14:19:39] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-23 14:19:39] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-23 14:19:39] [ ERROR] [PacienteDaoH2:91] Hubo un error al intentar guardar el nuevo paciente.
+[2022-06-23 14:19:39] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-23 14:22:28] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-23 14:22:28] [ ERROR] [OdontologoDaoH2:89] Hubo un error al intentar guardar el nuevo odontologo.
+[2022-06-23 14:22:28] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-23 14:22:28] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-23 14:22:28] [ ERROR] [PacienteDaoH2:91] Hubo un error al intentar guardar el nuevo paciente.
+[2022-06-23 14:22:28] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-23 14:22:51] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-23 14:22:52] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-23 14:22:52] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-23 14:22:52] [ ERROR] [PacienteDaoH2:91] Hubo un error al intentar guardar el nuevo paciente.
+[2022-06-23 14:22:52] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-23 14:23:18] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-23 14:23:19] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-23 14:23:19] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-23 14:23:19] [ ERROR] [PacienteDaoH2:91] Hubo un error al intentar guardar el nuevo paciente.
+[2022-06-23 14:23:19] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-23 14:24:58] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-23 14:24:59] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-23 14:24:59] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-23 14:24:59] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-23 14:25:42] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-23 14:25:42] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-23 14:25:42] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-23 14:25:42] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.
+[2022-06-23 14:39:19] [ INFO ] [OdontologoDaoH2:51] comienza metodo guardar
+[2022-06-23 14:39:19] [ ERROR] [OdontologoDaoH2:89] Hubo un error al intentar guardar el nuevo odontologo.
+[2022-06-23 14:39:19] [ INFO ] [OdontologoDaoH2:93] Se guardo correctamente el nuevo odontologo.
+[2022-06-23 14:39:19] [ INFO ] [PacienteDaoH2:51] comienza metodo guardar
+[2022-06-23 14:39:19] [ ERROR] [PacienteDaoH2:91] Hubo un error al intentar guardar el nuevo paciente.
+[2022-06-23 14:39:19] [ INFO ] [PacienteDaoH2:95] Se guardo correctamente el nuevo paciente.

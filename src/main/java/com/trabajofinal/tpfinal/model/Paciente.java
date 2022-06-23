@@ -1,6 +1,10 @@
 package com.trabajofinal.tpfinal.model;
 
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 
 public class Paciente extends Persona {
     private Long id;
@@ -16,27 +20,4 @@ public class Paciente extends Persona {
 
 
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getDomicilio() {
-        return domicilio;
-    }
-
-    public void setDomicilio(String domicilio) {
-        this.domicilio = domicilio;
-    }
-
-    public String getFechaDeAlta() {
-        return fechaDeAlta;
-    }
-
-    public void setFechaDeAlta(String fechaDeAlta) {
-        this.fechaDeAlta = fechaDeAlta;
-    }
 }

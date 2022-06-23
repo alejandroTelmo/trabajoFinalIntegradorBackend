@@ -16,15 +16,15 @@ import java.sql.SQLException;
 
 @SpringBootTest
 class TpfinalApplicationTests {
-	Usuario usuario=new Usuario(167L,"OHNO","ZZZ");
+	Usuario usuario=new Usuario(15L,"OHNO","ZZZ");
 	UsuarioDaoH2 usuarioDaoH2=new UsuarioDaoH2();
 	UsuarioService usuarioService=new UsuarioService(usuarioDaoH2);
 
-	Paciente paciente=new Paciente("kevin","hoy comandas la clase de backend",111L,"COLOMBIA","20/22/2022");
+	Paciente paciente=new Paciente("kevin","hoy comandas la clase de backend",541L,"COLOMBIA","20/22/2022");
 	PacienteDaoH2 pacienteDaoH2=new PacienteDaoH2();
 	PacienteService pacienteService=new PacienteService(pacienteDaoH2);
 
-	Odontologo odontologo=new Odontologo("saca muela","y dientes",123,151L);
+	Odontologo odontologo=new Odontologo("saca muela","y dientes",123,9955L);
 	OdontologoDaoH2 odontologoDaoH2=new OdontologoDaoH2();
 	OdontologoService odontologoService=new OdontologoService(odontologoDaoH2);
 
